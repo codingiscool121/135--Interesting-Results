@@ -108,14 +108,14 @@ with open("filtered_data.csv", "a+") as f:
     csvwriter.writerow(headers)
     csvwriter.writerows(planetdata)
 
-graph = pe.bar(x=starnamenew, y=gravitynew, title='Gravity by Star Name', color=starname)
+graph = pe.bar(x=starnamenew, y=gravitynew, title='Gravity by Star Name', color=starnamenew)
 graph.show()
 
-graph2 = pe.bar(x=starnamenew, y=massnew, title='Mass by Star Name', color=starname)
+graph2 = pe.bar(x=starnamenew, y=massnew, title='Mass by Star Name', color=starnamenew)
 graph2.show()
 
-graph3 = pe.bar(x=starnamenew, y=radiusnew, title='Radius by Star Name', color=starname)
+graph3 = pe.bar(x=starnamenew, y=radiusnew, title='Radius by Star Name', color=starnamenew)
 graph3.show()
 
-graph4 = pe.bar(x=starnamenew, y=distancenew, title='Distance by Star Name', color=starname)
+graph4 = pe.bar(x=starnamenew, y=distancenew, title='Distance by Star Name', color=starnamenew)
 graph4.show()
